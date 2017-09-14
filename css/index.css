@@ -48,8 +48,12 @@ body {
     color: #a3a3a3;
 }
 .work-img{
+     height: 250px;
      border: 1px solid black;
      cursor: pointer;
+}
+.work-img img{
+  height: 100%;
 }
 .portfolioLogo {
     text-decoration: none !important;

@@ -17,7 +17,7 @@ function email(){
     $('.email ').attr('href', e);
 }
 function phone(){
-    var p = '714';
+    var p = '+1714';
     p += '-659';
     p += '-4517';
     $('.phone').text(p);

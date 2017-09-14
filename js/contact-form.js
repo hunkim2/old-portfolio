@@ -13,18 +13,18 @@ $(document).ready(function(){
         //simple validation at client's end
         //we simply change border color to red if empty field using .css()
         var proceed = true;
-        if (user_name == "") {
+        if (user_name == "" || user_name == " ") {
             $('input[name=name]').css('border-color', '#e41919');
             $('form-tip').css('color', '#e41919');
             proceed = false;
         }
-        if (user_email == "") {
+        if (user_email == "" || user_name == " ") {
             $('input[name=email]').css('border-color', '#e41919');
             $('.form-tip').css('color', '#e41919');
             proceed = false;
         }
 
-        if (user_message == "") {
+        if (user_message == "" || user_name == " ") {
             $('textarea[name=message]').css('border-color', '#e41919');
             $('.form-tip').css('color', '#e41919');
             proceed = false;

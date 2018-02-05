@@ -106,6 +106,10 @@ body {
     height: 33%;
     width: 40%;
 }
+.service-icons-react {
+    height: 47%;
+    width: 47%;
+}
 .service-icons-redux {
     height: 33%;
     width: 35%;

@@ -1,4 +1,4 @@
 <?php
-define('EMAIL_USER','codinghunkim@gmail.com');
-define('EMAIL_PASS','guacomole1rlagnsK95');
+define('EMAIL_USER','<YOUR EMAIL>');
+define('EMAIL_PASS','<YOUR PASSWORD>');
 ?>

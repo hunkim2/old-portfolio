@@ -4,7 +4,8 @@ function init(){
     email();
     phone();
     closeNav();
-    $('.mfp-image').click(portfolioClick);
+    $('.mfp-image').mouseover(portfolioClick);
+    $('.mfp-image').mouseout(portfolioClick);
 }
 function email(){
     var e = 'coding';
